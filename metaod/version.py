@@ -21,3 +21,5 @@
 # 'X.Y.dev0' is the canonical version of 'X.Y.dev'
 #
 __version__ = '0.0.6'  # pragma: no cover
+
+__version__ = '0.1.0'

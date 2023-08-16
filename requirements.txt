@@ -1,7 +1,7 @@
-joblib>=0.14.1
+joblib
 liac-arff
-numpy>=1.18.1
-scipy>=0.20
-scikit_learn==0.22.1
-pandas>=0.20
-pyod>=0.8
+numpy
+scipy
+scikit_learn
+pandas
+pyod

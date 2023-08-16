@@ -19,9 +19,11 @@ def readme():
 
 
 # read the contents of requirements.txt
-with open(path.join(this_directory, 'requirements.txt'),
-          encoding='utf-8') as f:
-    requirements = f.read().splitlines()
+# with open(path.join(this_directory, 'requirements.txt'),
+#           encoding='utf-8') as f:
+#     requirements = f.read().splitlines()
+
+
 
 setup(
     name='metaod',
@@ -37,7 +39,7 @@ setup(
               'data mining', 'meta learning', 'AutoML'],
     packages=find_packages(exclude=['test']),
     include_package_data=True,
-    install_requires=requirements,
+    install_requires=['pandas', 'scikit-learn','numpy', 'pyod'],
     setup_requires=['setuptools>=38.6.0'],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
