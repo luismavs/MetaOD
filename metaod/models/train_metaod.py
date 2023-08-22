@@ -18,11 +18,11 @@ import numpy as np
 
 def train_from_scratch(model_list, data_list):
     
-    script_directory = os.path.dirname(os.path.abspath(__file__))
-    excel_file_path = os.path.join(script_directory, '..', 'data', 'performance_table.xlsx')  # Adjust the path based on your directory structure
+    #script_directory = os.path.dirname(os.path.abspath(__file__))
+    #excel_file_path = os.path.join(script_directory, '..', 'data', 'performance_table.xlsx')  # Adjust the path based on your directory structure
 
     # Read the Excel file
-    perf_df = pd.read_excel(excel_file_path, sheet_name='AP')
+    #perf_df = pd.read_excel(excel_file_path, sheet_name='AP')
     
     # read in performance table
     #perf_df = pd.read_excel(os.path.join('data', 'performance_table.xlsx'), sheet_name='AP')
